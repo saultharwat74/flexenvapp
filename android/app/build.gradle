@@ -1,4 +1,13 @@
 apply plugin: "com.android.application"
+project.ext.envConfigFiles = [
+    release: ".env.alpha",
+    debug: ".env.alpha",
+    alphadebug: ".env.alpha",
+    alpharelease: ".env.alpha",
+    betadebug: ".env.beta",
+    betarelease: ".env.beta"
+]
+apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
 
 import com.android.build.OutputFile
 import org.apache.tools.ant.taskdefs.condition.Os
@@ -133,7 +142,25 @@ android {
     ndkVersion rootProject.ext.ndkVersion
 
     compileSdkVersion rootProject.ext.compileSdkVersion
-
+    flavorDimensions "default"
+    productFlavors {
+        alpha {
+            minSdkVersion rootProject.ext.minSdkVersion
+            applicationId "com.flexenvapp.alpha"
+            targetSdkVersion rootProject.ext.targetSdkVersion
+            resValue "string", "build_config_package", "com.flexenvapp"
+            versionCode 1
+            versionName "1.0"
+        }
+        beta {
+            minSdkVersion rootProject.ext.minSdkVersion
+            applicationId "com.flexenvapp.beta"
+            targetSdkVersion rootProject.ext.targetSdkVersion
+            resValue "string", "build_config_package", "com.flexenvapp"
+            versionCode 1
+            versionName "1.0"
+        }
+    }
     defaultConfig {
         applicationId "com.flexenvapp"
         minSdkVersion rootProject.ext.minSdkVersion

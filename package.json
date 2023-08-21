@@ -9,7 +9,13 @@
     "link": "react-native link",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "postinstall": "pod-install"
+    "postinstall": "pod-install",
+    "alpha-android": "react-native run-android --variant=alphaDebug --appIdSuffix alpha",
+    "alpha-android-release-variant": "react native run android --variant=alphaRelease --appIdSuffix alpha",
+    "alpha-android-release": "cd android && ./gradlew clean && ./gradlew assembleAlphaRelease",
+    "beta-android": "react-native run-android --variant=betaDebug --appIdSuffix beta",
+    "beta-android-release-variant": "react native run android --variant=betaRelease --appIdSuffix beta",
+    "beta-android-release": "cd android && ./gradlew clean && ./gradlew assembleBetaRelease"
   },
   "dependencies": {
     "react": "18.1.0",
