@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* flexenvappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* flexenvappTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-flexenvapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-flexenvapp.a */; };
+		0C80B921A6F3F58F76C31292 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-flexenvapp-flexenvappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-flexenvapp-flexenvappTests.a */; };
+		204973852A9CCDB700EA798A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		204973862A9CCDB700EA798A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2049738A2A9CCDB700EA798A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		2049738B2A9CCDB700EA798A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		204973982A9CCDD000EA798A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		204973992A9CCDD000EA798A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2049739D2A9CCDD000EA798A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		2049739E2A9CCDD000EA798A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B370D4466E9366970DDE4F90 /* libPods-flexenvapp-flexenvapp-beta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE95DDA6A71254EDF42BE58 /* libPods-flexenvapp-flexenvapp-beta.a */; };
+		BED2261B99F4C387FD4D8500 /* libPods-flexenvapp-flexenvapp-alpha.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DF3962203BF2212AC0C883 /* libPods-flexenvapp-flexenvapp-alpha.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +45,20 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = flexenvapp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = flexenvapp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = flexenvapp/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-flexenvapp-flexenvappTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-flexenvapp-flexenvappTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		204973922A9CCDB700EA798A /* flexenvapp-beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "flexenvapp-beta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		204973932A9CCDB700EA798A /* flexenvapp beta-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "flexenvapp beta-Info.plist"; path = "/Users/tharwat74/Documents/flexenvapp/ios/flexenvapp beta-Info.plist"; sourceTree = "<absolute>"; };
+		204973A52A9CCDD000EA798A /* flexenvapp-alpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "flexenvapp-alpha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		204973A62A9CCDD000EA798A /* flexenvapp alpha-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "flexenvapp alpha-Info.plist"; path = "/Users/tharwat74/Documents/flexenvapp/ios/flexenvapp alpha-Info.plist"; sourceTree = "<absolute>"; };
+		2EDFB8046DCCBC282E223D21 /* Pods-flexenvapp-flexenvapp-alpha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flexenvapp-flexenvapp-alpha.debug.xcconfig"; path = "Target Support Files/Pods-flexenvapp-flexenvapp-alpha/Pods-flexenvapp-flexenvapp-alpha.debug.xcconfig"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-flexenvapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flexenvapp.debug.xcconfig"; path = "Target Support Files/Pods-flexenvapp/Pods-flexenvapp.debug.xcconfig"; sourceTree = "<group>"; };
+		52667F8F2D0045019E77B09B /* Pods-flexenvapp-flexenvapp-beta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flexenvapp-flexenvapp-beta.debug.xcconfig"; path = "Target Support Files/Pods-flexenvapp-flexenvapp-beta/Pods-flexenvapp-flexenvapp-beta.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-flexenvapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flexenvapp.release.xcconfig"; path = "Target Support Files/Pods-flexenvapp/Pods-flexenvapp.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-flexenvapp-flexenvappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flexenvapp-flexenvappTests.debug.xcconfig"; path = "Target Support Files/Pods-flexenvapp-flexenvappTests/Pods-flexenvapp-flexenvappTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-flexenvapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-flexenvapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = flexenvapp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-flexenvapp-flexenvappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flexenvapp-flexenvappTests.release.xcconfig"; path = "Target Support Files/Pods-flexenvapp-flexenvappTests/Pods-flexenvapp-flexenvappTests.release.xcconfig"; sourceTree = "<group>"; };
+		96DF3962203BF2212AC0C883 /* libPods-flexenvapp-flexenvapp-alpha.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-flexenvapp-flexenvapp-alpha.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B87BEE6A8E3EE21F9EC99149 /* Pods-flexenvapp-flexenvapp-beta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flexenvapp-flexenvapp-beta.release.xcconfig"; path = "Target Support Files/Pods-flexenvapp-flexenvapp-beta/Pods-flexenvapp-flexenvapp-beta.release.xcconfig"; sourceTree = "<group>"; };
+		CCF11BEB692711D2684CD236 /* Pods-flexenvapp-flexenvapp-alpha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flexenvapp-flexenvapp-alpha.release.xcconfig"; path = "Target Support Files/Pods-flexenvapp-flexenvapp-alpha/Pods-flexenvapp-flexenvapp-alpha.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FDE95DDA6A71254EDF42BE58 /* libPods-flexenvapp-flexenvapp-beta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-flexenvapp-flexenvapp-beta.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-flexenvapp-flexenvappTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +73,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-flexenvapp.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* (null) in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204973872A9CCDB700EA798A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B370D4466E9366970DDE4F90 /* libPods-flexenvapp-flexenvapp-beta.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2049739A2A9CCDD000EA798A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED2261B99F4C387FD4D8500 /* libPods-flexenvapp-flexenvapp-alpha.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-flexenvapp.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-flexenvapp-flexenvappTests.a */,
+				96DF3962203BF2212AC0C883 /* libPods-flexenvapp-flexenvapp-alpha.a */,
+				FDE95DDA6A71254EDF42BE58 /* libPods-flexenvapp-flexenvapp-beta.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,6 +152,8 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				204973932A9CCDB700EA798A /* flexenvapp beta-Info.plist */,
+				204973A62A9CCDD000EA798A /* flexenvapp alpha-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -133,6 +165,8 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* flexenvapp.app */,
 				00E356EE1AD99517003FC87E /* flexenvappTests.xctest */,
+				204973922A9CCDB700EA798A /* flexenvapp-beta.app */,
+				204973A52A9CCDD000EA798A /* flexenvapp-alpha.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,8 +176,10 @@
 			children = (
 				3B4392A12AC88292D35C810B /* Pods-flexenvapp.debug.xcconfig */,
 				5709B34CF0A7D63546082F79 /* Pods-flexenvapp.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-flexenvapp-flexenvappTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-flexenvapp-flexenvappTests.release.xcconfig */,
+				2EDFB8046DCCBC282E223D21 /* Pods-flexenvapp-flexenvapp-alpha.debug.xcconfig */,
+				CCF11BEB692711D2684CD236 /* Pods-flexenvapp-flexenvapp-alpha.release.xcconfig */,
+				52667F8F2D0045019E77B09B /* Pods-flexenvapp-flexenvapp-beta.debug.xcconfig */,
+				B87BEE6A8E3EE21F9EC99149 /* Pods-flexenvapp-flexenvapp-beta.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +191,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "flexenvappTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,6 +225,50 @@
 			name = flexenvapp;
 			productName = flexenvapp;
 			productReference = 13B07F961A680F5B00A75B9A /* flexenvapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		204973812A9CCDB700EA798A /* flexenvapp-beta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2049738F2A9CCDB700EA798A /* Build configuration list for PBXNativeTarget "flexenvapp-beta" */;
+			buildPhases = (
+				204973822A9CCDB700EA798A /* [CP] Check Pods Manifest.lock */,
+				204973832A9CCDB700EA798A /* Start Packager */,
+				204973842A9CCDB700EA798A /* Sources */,
+				204973872A9CCDB700EA798A /* Frameworks */,
+				204973892A9CCDB700EA798A /* Resources */,
+				2049738C2A9CCDB700EA798A /* Bundle React Native code and images */,
+				2049738D2A9CCDB700EA798A /* [CP] Embed Pods Frameworks */,
+				2049738E2A9CCDB700EA798A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "flexenvapp-beta";
+			productName = flexenvapp;
+			productReference = 204973922A9CCDB700EA798A /* flexenvapp-beta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		204973942A9CCDD000EA798A /* flexenvapp-alpha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204973A22A9CCDD000EA798A /* Build configuration list for PBXNativeTarget "flexenvapp-alpha" */;
+			buildPhases = (
+				204973952A9CCDD000EA798A /* [CP] Check Pods Manifest.lock */,
+				204973962A9CCDD000EA798A /* Start Packager */,
+				204973972A9CCDD000EA798A /* Sources */,
+				2049739A2A9CCDD000EA798A /* Frameworks */,
+				2049739C2A9CCDD000EA798A /* Resources */,
+				2049739F2A9CCDD000EA798A /* Bundle React Native code and images */,
+				204973A02A9CCDD000EA798A /* [CP] Embed Pods Frameworks */,
+				204973A12A9CCDD000EA798A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "flexenvapp-alpha";
+			productName = flexenvapp;
+			productReference = 204973A52A9CCDD000EA798A /* flexenvapp-alpha.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -226,6 +303,8 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* flexenvapp */,
 				00E356ED1AD99517003FC87E /* flexenvappTests */,
+				204973812A9CCDB700EA798A /* flexenvapp-beta */,
+				204973942A9CCDD000EA798A /* flexenvapp-alpha */,
 			);
 		};
 /* End PBXProject section */
@@ -244,6 +323,24 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204973892A9CCDB700EA798A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2049738A2A9CCDB700EA798A /* LaunchScreen.storyboard in Resources */,
+				2049738B2A9CCDB700EA798A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2049739C2A9CCDD000EA798A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2049739D2A9CCDD000EA798A /* LaunchScreen.storyboard in Resources */,
+				2049739E2A9CCDD000EA798A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +380,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-flexenvapp/Pods-flexenvapp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+		204973822A9CCDB700EA798A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -298,11 +395,171 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-flexenvapp-flexenvappTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-flexenvapp-flexenvapp-beta-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		204973832A9CCDB700EA798A /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2049738C2A9CCDB700EA798A /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		2049738D2A9CCDB700EA798A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-flexenvapp-flexenvapp-beta/Pods-flexenvapp-flexenvapp-beta-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-flexenvapp-flexenvapp-beta/Pods-flexenvapp-flexenvapp-beta-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-flexenvapp-flexenvapp-beta/Pods-flexenvapp-flexenvapp-beta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2049738E2A9CCDB700EA798A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-flexenvapp-flexenvapp-beta/Pods-flexenvapp-flexenvapp-beta-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-flexenvapp-flexenvapp-beta/Pods-flexenvapp-flexenvapp-beta-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-flexenvapp-flexenvapp-beta/Pods-flexenvapp-flexenvapp-beta-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		204973952A9CCDD000EA798A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-flexenvapp-flexenvapp-alpha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		204973962A9CCDD000EA798A /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2049739F2A9CCDD000EA798A /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		204973A02A9CCDD000EA798A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-flexenvapp-flexenvapp-alpha/Pods-flexenvapp-flexenvapp-alpha-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-flexenvapp-flexenvapp-alpha/Pods-flexenvapp-flexenvapp-alpha-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-flexenvapp-flexenvapp-alpha/Pods-flexenvapp-flexenvapp-alpha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		204973A12A9CCDD000EA798A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-flexenvapp-flexenvapp-alpha/Pods-flexenvapp-flexenvapp-alpha-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-flexenvapp-flexenvapp-alpha/Pods-flexenvapp-flexenvapp-alpha-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-flexenvapp-flexenvapp-alpha/Pods-flexenvapp-flexenvapp-alpha-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
@@ -327,23 +584,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-flexenvapp-flexenvappTests/Pods-flexenvapp-flexenvappTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-flexenvapp-flexenvappTests/Pods-flexenvapp-flexenvappTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-flexenvapp-flexenvappTests/Pods-flexenvapp-flexenvappTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -359,23 +599,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-flexenvapp/Pods-flexenvapp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-flexenvapp-flexenvappTests/Pods-flexenvapp-flexenvappTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-flexenvapp-flexenvappTests/Pods-flexenvapp-flexenvappTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-flexenvapp-flexenvappTests/Pods-flexenvapp-flexenvappTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -417,6 +640,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		204973842A9CCDB700EA798A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204973852A9CCDB700EA798A /* AppDelegate.mm in Sources */,
+				204973862A9CCDB700EA798A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204973972A9CCDD000EA798A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204973982A9CCDD000EA798A /* AppDelegate.mm in Sources */,
+				204973992A9CCDD000EA798A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -430,7 +671,6 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-flexenvapp-flexenvappTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -457,7 +697,6 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-flexenvapp-flexenvappTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -524,6 +763,106 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = flexenvapp;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		204973902A9CCDB700EA798A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52667F8F2D0045019E77B09B /* Pods-flexenvapp-flexenvapp-beta.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-beta";
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "flexenvapp beta-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		204973912A9CCDB700EA798A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B87BEE6A8E3EE21F9EC99149 /* Pods-flexenvapp-flexenvapp-beta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-beta";
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "flexenvapp beta-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		204973A32A9CCDD000EA798A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EDFB8046DCCBC282E223D21 /* Pods-flexenvapp-flexenvapp-alpha.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-alpha";
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "flexenvapp alpha-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		204973A42A9CCDD000EA798A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCF11BEB692711D2684CD236 /* Pods-flexenvapp-flexenvapp-alpha.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-alpha";
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "flexenvapp alpha-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -683,6 +1022,24 @@
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2049738F2A9CCDB700EA798A /* Build configuration list for PBXNativeTarget "flexenvapp-beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204973902A9CCDB700EA798A /* Debug */,
+				204973912A9CCDB700EA798A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		204973A22A9CCDD000EA798A /* Build configuration list for PBXNativeTarget "flexenvapp-alpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204973A32A9CCDD000EA798A /* Debug */,
+				204973A42A9CCDD000EA798A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

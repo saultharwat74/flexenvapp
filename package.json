@@ -15,7 +15,9 @@
     "alpha-android-release": "cd android && ./gradlew clean && ./gradlew assembleAlphaRelease",
     "beta-android": "react-native run-android --variant=betaDebug --appIdSuffix beta",
     "beta-android-release-variant": "react native run android --variant=betaRelease --appIdSuffix beta",
-    "beta-android-release": "cd android && ./gradlew clean && ./gradlew assembleBetaRelease"
+    "beta-android-release": "cd android && ./gradlew clean && ./gradlew assembleBetaRelease",
+    "ios:alpha": "react-native run-ios --scheme 'flexenvapp-alpha'",
+    "ios:beta": "react-native run-ios --scheme 'flexenvapp-beta'"
   },
   "dependencies": {
     "react": "18.1.0",

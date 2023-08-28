@@ -27,7 +27,12 @@ target 'flexenvapp' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'flexenvappTests' do
+  target 'flexenvapp-alpha' do
+    inherit! :complete
+    # Pods for testing
+  end
+  
+  target 'flexenvapp-beta' do
     inherit! :complete
     # Pods for testing
   end
